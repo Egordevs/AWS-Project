@@ -19,7 +19,8 @@ This project aims to deploy a toxic service using AWS services. The toxic servic
 8. Verify that the output matches the expected values, indicating that the service is working correctly.
 If necessary, you can make any modifications or updates to the project code on your local machine and repeat the steps starting from the build step to test the changes.
 ___
-       ![AWS Schema](https://github.com/Egordevs/AWS-Project/blob/main/AWS%20Project/container/image.pdf_page-0001.jpg
+       
+![AWS Schema](https://github.com/Egordevs/AWS-Project/blob/main/AWS%20Project/python%2010.png
 
 ##                     Project Steps:
 1. Create an Elastic Container Registry (ECR) repository on AWS to store the toxic service image.
