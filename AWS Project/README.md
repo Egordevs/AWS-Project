@@ -1,9 +1,9 @@
-                          Project Description: Deploying a Toxic Service on AWS with Load Balancer
+                          # Project Description: Deploying a Toxic Service on AWS with Load Balancer
                           
   This project aims to deploy a toxic service using AWS services. The toxic service will be containerized using Docker and will be run on EC2 instances.  Additionally, an Application Load Balancer (ALB) will be set up to distribute incoming traffic between the EC2 instances.
   This Docker image allows access to the Detoxify project via an HTTP API using Flask. It calculates profanity ratings for any given text and requires no additional configuration.
 
-                          Steps to make docker image from toxic_comment:
+                          ## Steps to make docker image from toxic_comment:
 
 1)Clone the project to your local machine by using the git clone command.
 2)Open a command prompt or terminal and navigate to the project directory.
@@ -15,7 +15,7 @@
 9)Verify that the output matches the expected values, indicating that the service is working correctly.
 If necessary, you can make any modifications or updates to the project code on your local machine and repeat the steps starting from the build step to test the changes.
 
-                                              Project Steps:
+                                              ## Project Steps:
                                               
 1)Create an Elastic Container Registry (ECR) repository on AWS to store the toxic service image.
 2)Upload the toxic service image to the ECR repository.
@@ -29,7 +29,7 @@ If necessary, you can make any modifications or updates to the project code on y
 10)Register the EC2 instances as targets in the Load Balancer.
 11)Verify that you can successfully make curl requests to the toxic service through the Load Balancer.
 
-                                              Usage:
+                                              ## Usage:
                                               
   To use this project, follow the steps outlined above to deploy the toxic service on AWS with a Load Balancer. Ensure that you have the necessary AWS credentials and access rights to create and configure the required services.
 
