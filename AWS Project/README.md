@@ -18,9 +18,9 @@ This project aims to deploy a toxic service using AWS services. The toxic servic
 7. The expected output should be: {'toxicity': 0.9662318, 'severe_toxicity': 0.015923576, 'obscene': 0.47188887, 'threat': 0.0010962454, 'insult': 0.90948385, 'identity_attack': 0.0132479565}
 8. Verify that the output matches the expected values, indicating that the service is working correctly.
 If necessary, you can make any modifications or updates to the project code on your local machine and repeat the steps starting from the build step to test the changes.
-___
-       
-![AWS Schema](https://github.com/Egordevs/AWS-Project/blob/main/AWS%20Project/python%2010.png
+
+______   
+
 
 ##                     Project Steps:
 1. Create an Elastic Container Registry (ECR) repository on AWS to store the toxic service image.
@@ -34,6 +34,8 @@ ___
 9. Create an Application Load Balancer (ALB) to distribute traffic between the EC2 instances.
 10. Register the EC2 instances as targets in the Load Balancer.
 Verify that you can successfully make curl requests to the toxic service through the Load Balancer.
+
+![](https://github.com/Egordevs/AWS-Project/blob/main/AWS%20Project/container/image.pdf_page-0001.jpg) 
 _____
 ## Usage
 - To use this project, follow the steps outlined above to deploy the toxic service on AWS with a Load Balancer. Ensure that you have the necessary AWS credentials and access rights to create and configure the required services.
